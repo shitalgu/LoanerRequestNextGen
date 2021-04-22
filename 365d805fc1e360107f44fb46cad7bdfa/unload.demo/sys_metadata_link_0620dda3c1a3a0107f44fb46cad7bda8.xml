@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>b4bf7013c1e760107f44fb46cad7bd21</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_cdltd_loaner_req_loaner_request">
+    <x_cdltd_loaner_req_loaner_request action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to/>
+        <assignment_group/>
+        <business_duration/>
+        <business_service/>
+        <calendar_duration/>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type/>
+        <contract/>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_plan/>
+        <delivery_task/>
+        <description/>
+        <due_date/>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact>3</impact>
+        <incident/>
+        <item_type/>
+        <knowledge>false</knowledge>
+        <loan_end_date/>
+        <loan_start_date/>
+        <location/>
+        <made_sla>true</made_sla>
+        <number>LNR0001020</number>
+        <opened_at>2021-04-21 09:59:06</opened_at>
+        <opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by>
+        <order/>
+        <other_location/>
+        <parent/>
+        <priority>4</priority>
+        <problem/>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <requested_for/>
+        <route_reason/>
+        <service_offering/>
+        <short_description/>
+        <sla_due/>
+        <state>1</state>
+        <sys_class_name>x_cdltd_loaner_req_loaner_request</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-21 09:59:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b4bf7013c1e760107f44fb46cad7bd21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-21 09:59:18</sys_updated_on>
+        <task_effective_number>LNR0001020</task_effective_number>
+        <time_worked/>
+        <universal_request/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_cdltd_loaner_req_loaner_request>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 05:49:28</sys_created_on>
+        <sys_id>0620dda3c1a3a0107f44fb46cad7bda8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LNR0001020</sys_name>
+        <sys_package display_value="Loaner Request Application" source="x_cdltd_loaner_req">365d805fc1e360107f44fb46cad7bdfa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request Application">365d805fc1e360107f44fb46cad7bdfa</sys_scope>
+        <sys_update_name>sys_metadata_link_0620dda3c1a3a0107f44fb46cad7bda8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 05:49:28</sys_updated_on>
+        <tablename>x_cdltd_loaner_req_loaner_request</tablename>
+    </sys_metadata_link>
+</record_update>
