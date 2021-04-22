@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Loaner Request" max_length="40" name="x_cdltd_loaner_req_loaner_request" type="collection">
+    <element extends="task" label="Loaner Request" max_length="40" name="x_cdltd_loaner_req_loaner_request" sizeclass="4" type="collection">
+        <element attributes="encode_utf8=false" label="Incident" max_length="32" name="incident" reference="incident" type="reference"/>
         <element choice="1" label="Item Type" max_length="40" name="item_type" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="laptop"/>
+                <element inactive_on_update="false" label="Mobile Phone" sequence="1" value="mobile phone"/>
+                <element inactive_on_update="false" label="Projector" sequence="2" value="projector"/>
+                <element inactive_on_update="false" label="Mouse" sequence="3" value="mouse"/>
+            </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Loan End Date" max_length="40" name="loan_end_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Loan Start Date" max_length="40" name="loan_start_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Location" max_length="40" name="other_location" type="string"/>
+        <element attributes="encode_utf8=false" label="Problem" max_length="32" name="problem" reference="problem" type="reference"/>
         <element attributes="encode_utf8=false" label="Requested For" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
     </element>
 </database>
