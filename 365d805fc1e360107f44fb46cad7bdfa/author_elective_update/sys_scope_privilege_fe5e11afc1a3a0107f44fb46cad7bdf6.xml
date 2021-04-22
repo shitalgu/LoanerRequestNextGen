@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="Loaner Request Application">365d805fc1e360107f44fb46cad7bdfa</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 06:51:31</sys_created_on>
+        <sys_id>fe5e11afc1a3a0107f44fb46cad7bdf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideRecord.insert</sys_name>
+        <sys_package display_value="Loaner Request Application" source="x_cdltd_loaner_req">365d805fc1e360107f44fb46cad7bdfa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request Application">365d805fc1e360107f44fb46cad7bdfa</sys_scope>
+        <sys_update_name>sys_scope_privilege_fe5e11afc1a3a0107f44fb46cad7bdf6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 06:51:31</sys_updated_on>
+        <target_name>GlideRecord.insert</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Request Application">365d805fc1e360107f44fb46cad7bdfa</application>
+        <file_path/>
+        <instance_id>f43decf6db6360143e1000b5ca96198d</instance_id>
+        <instance_name>adf-apr-816-dev-001-instructor</instance_name>
+        <name>sys_scope_privilege_fe5e11afc1a3a0107f44fb46cad7bdf6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Loaner Request Application">365d805fc1e360107f44fb46cad7bdfa</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-22 06:51:31</sys_created_on><sys_id>fe5e11afc1a3a0107f44fb46cad7bdf6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GlideRecord.insert</sys_name><sys_package display_value="Loaner Request Application" source="x_cdltd_loaner_req">365d805fc1e360107f44fb46cad7bdfa</sys_package><sys_policy/><sys_scope display_value="Loaner Request Application">365d805fc1e360107f44fb46cad7bdfa</sys_scope><sys_update_name>sys_scope_privilege_fe5e11afc1a3a0107f44fb46cad7bdf6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-22 06:51:31</sys_updated_on><target_name>GlideRecord.insert</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>2114462209</payload_hash>
+        <record_name>GlideRecord.insert</record_name>
+        <reverted_from/>
+        <source>5c595017c16760107f44fb46cad7bd08</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 06:51:31</sys_created_on>
+        <sys_id>725e11afc1a3a0107f44fb46cad7bdf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178f85915df0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 06:51:31</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>f65e11af15a3a010ab24998487e9eff8</update_guid>
+        <update_guid_history>f65e11af15a3a010ab24998487e9eff8:2114462209</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 06:52:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>816fd17f9987483885fe92e82f696290</sys_id>
+        <sys_metadata>fe5e11afc1a3a0107f44fb46cad7bdf6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideRecord.insert</sys_name>
+        <sys_package display_value="Loaner Request Application" source="x_cdltd_loaner_req">365d805fc1e360107f44fb46cad7bdfa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request Application">365d805fc1e360107f44fb46cad7bdfa</sys_scope>
+        <sys_scope_delete display_value="">094418c18ad8404c83711ed1067c39c1</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_fe5e11afc1a3a0107f44fb46cad7bdf6</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_fe5e11afc1a3a0107f44fb46cad7bdf6">725e11afc1a3a0107f44fb46cad7bdf9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 06:52:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
